@@ -4,7 +4,6 @@ import logger from "morgan";
 import validateEnv from "./utils/validateEnv";
 import router from "./router/router";
 import { engine } from "express-handlebars";
-import * as helpers from "./views/helpers/helpers";  
 
 dotenv.config();
 validateEnv();
@@ -15,7 +14,6 @@ const PORT = process.env.PORT ?? 5577;
 app.engine(
   "handlebars",
   engine({
-    helpers,
     defaultLayout: "main",
     layoutsDir: `${__dirname}/views/layouts`,
   })
