@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "Celular",
+      "price": "899",
+      "stock": "8",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Tablet",
+      "price": 200,
+      "stock": 8
+    },
+    {
+      "id": "3",
+      "name": "Monitor",
+      "price": 150,
+      "stock": 12
+    }
+  ]
+}
